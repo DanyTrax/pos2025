@@ -1,0 +1,126 @@
+[19-Jun-2024 21:41:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_admin1', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin.acplasticos.com/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/epicosie/admin.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '55', 'id')
+#3 /home/epicosie/admin.acplasticos.com/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '55', 'id')
+#4 /home/epicosie/admin.acplasticos.com/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/epicosie/admin.acplasticos.com/modelos/conexion.php on line 9
+[19-Jun-2024 21:43:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_admin1', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin.acplasticos.com/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/epicosie/admin.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '55', 'id')
+#3 /home/epicosie/admin.acplasticos.com/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '55', 'id')
+#4 /home/epicosie/admin.acplasticos.com/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/epicosie/admin.acplasticos.com/modelos/conexion.php on line 9
+[19-Jun-2024 21:56:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_admin1', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin.acplasticos.com/modelos/categorias.modelo.php(40): Conexion::conectar()
+#2 /home/epicosie/admin.acplasticos.com/controladores/categorias.controlador.php(76): ModeloCategorias::mdlMostrarCategorias('categorias', 'id', '1')
+#3 /home/epicosie/admin.acplasticos.com/ajax/datatable-productos.ajax.php(49): ControladorCategorias::ctrMostrarCategorias('id', '1')
+#4 /home/epicosie/admin.acplasticos.com/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/epicosie/admin.acplasticos.com/modelos/conexion.php on line 9
+[04-Jul-2024 15:50:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_admin1', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin.acplasticos.com/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/epicosie/admin.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '178', 'id')
+#3 /home/epicosie/admin.acplasticos.com/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '178', 'id')
+#4 /home/epicosie/admin.acplasticos.com/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/epicosie/admin.acplasticos.com/modelos/conexion.php on line 9
+[16-Jul-2024 14:35:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_admin1', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin.acplasticos.com/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/epicosie/admin.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/epicosie/admin.acplasticos.com/ajax/datatable-ventas.ajax.php(19): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/epicosie/admin.acplasticos.com/ajax/datatable-ventas.ajax.php(92): TablaProductosVentas->mostrarTablaProductosVentas()
+#5 {main}
+  thrown in /home/epicosie/admin.acplasticos.com/modelos/conexion.php on line 9
+[19-Jul-2024 16:01:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_admin1', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin.acplasticos.com/modelos/categorias.modelo.php(40): Conexion::conectar()
+#2 /home/epicosie/admin.acplasticos.com/controladores/categorias.controlador.php(76): ModeloCategorias::mdlMostrarCategorias('categorias', 'id', '1')
+#3 /home/epicosie/admin.acplasticos.com/ajax/datatable-productos.ajax.php(49): ControladorCategorias::ctrMostrarCategorias('id', '1')
+#4 /home/epicosie/admin.acplasticos.com/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/epicosie/admin.acplasticos.com/modelos/conexion.php on line 9
+[18-Sep-2024 16:05:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '129', 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '129', 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[18-Nov-2024 13:45:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/datatable-ventas.ajax.php(19): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/datatable-ventas.ajax.php(92): TablaProductosVentas->mostrarTablaProductosVentas()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[07-Feb-2025 15:23:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '237', 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '237', 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[07-Feb-2025 15:23:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(15): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', 'id', '235', 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/productos.ajax.php(68): ControladorProductos::ctrMostrarProductos('id', '235', 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/productos.ajax.php(99): AjaxProductos->ajaxEditarProducto()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[07-Feb-2025 15:24:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/datatable-ventas.ajax.php(19): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/datatable-ventas.ajax.php(92): TablaProductosVentas->mostrarTablaProductosVentas()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[20-Feb-2025 21:17:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[20-Feb-2025 21:17:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/categorias.modelo.php(40): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/categorias.controlador.php(76): ModeloCategorias::mdlMostrarCategorias('categorias', 'id', '7')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/datatable-productos.ajax.php(49): ControladorCategorias::ctrMostrarCategorias('id', '7')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
+[20-Feb-2025 21:17:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php:9
+Stack trace:
+#0 /home/epicosie/admin2.acplasticos.com/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'epicosie_acplas...', 'T7D*,LnFPZ}d')
+#1 /home/epicosie/admin2.acplasticos.com/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/epicosie/admin2.acplasticos.com/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/epicosie/admin2.acplasticos.com/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/epicosie/admin2.acplasticos.com/ajax/datatable-productos.ajax.php(118): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/epicosie/admin2.acplasticos.com/modelos/conexion.php on line 9
